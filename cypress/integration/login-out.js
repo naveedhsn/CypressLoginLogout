@@ -2,7 +2,7 @@
 /// <reference types="cypress-xpath" />
 describe('Cypress Testing For Login-Logout', function () {
     it('Login', function () {
-        cy.visit('https://testurl/')
+        cy.visit('https://testurl.com/')
 
         cy.get('#email').type('test@gmail.com')
 
