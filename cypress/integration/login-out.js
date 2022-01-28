@@ -43,6 +43,5 @@ describe('Cypress Testing For Login-Logout', function () {
         cy.get('.avatar-wrapper').click()
         cy.xpath('/html/body/ul/li[2]').within(() => {cy.xpath('/html/body/ul/li[2]')}).click() 
         Cypress.on('uncaught:exception', err => !err.message.includes('ResizeObserver loop limit exceeded'))
-       
     })
 })
