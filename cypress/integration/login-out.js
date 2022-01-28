@@ -2,11 +2,11 @@
 /// <reference types="cypress-xpath" />
 describe('Cypress Testing For Login-Logout', function () {
     it('Login', function () {
-        cy.visit('https://multapplied-staging.w3engineers.com/')
+        cy.visit('https://testurl.com/')
 
-        cy.get('#email').type('rakib@w3engineers.com')
+        cy.get('#email').type('test@gmail.com')
 
-        cy.get('#password').type('11v&EhWkF&')
+        cy.get('#password').type('testpassword')
 
         cy.get('.el-button > span').click()
 
